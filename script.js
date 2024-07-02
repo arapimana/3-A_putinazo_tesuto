@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "俺はお兄様だぞ") {
-        result.textContent = "や、やるじゃない、、、";
+        result.textContent = "ご、ごめんなさい♡";
     } else {
         result.textContent = "ざぁこ♡ざぁこ♡";
     }
