@@ -2,9 +2,9 @@ function checkAnswer() {
     const answerInput = document.getElementById('answerInput').value;
     const result = document.getElementById('result');
 
-    if (answerInput === "俺はお兄様だぞ") {
-        result.textContent = "ご、ごめんなさい♡";
+    if (answerInput === "テスト") {
+        result.textContent = "正解";
     } else {
-        result.textContent = "ざぁこ♡ざぁこ♡";
+        result.textContent = "不正解";
     }
 }
